@@ -1,0 +1,72 @@
+html {
+  font-size: 62.5%;
+}
+
+#wrap header {
+  display: flex;
+  justify-content: flex-end;
+}
+#wrap header .nav {
+  width: 100px;
+  height: 100px;
+  background-color: #FF9D9D;
+}
+#wrap main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap main .wrap {
+  background-color: #FF9D9D;
+  width: 960px;
+  height: 400px;
+  margin-top: 10em;
+  border-radius: 15px;
+  box-shadow: 12px 10px 5px rgb(75, 75, 75);
+}
+#wrap main .wrap .title {
+  text-align: center;
+  font-size: 3.2em;
+  margin-top: 25px;
+}
+#wrap main .wrap .contentswrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap main .wrap .contentswrap .textbox {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+#wrap main .wrap .contentswrap .textbox p {
+  font-size: 2.4em;
+  margin-top: 70px;
+}
+#wrap main .wrap .contentswrap .inputbox {
+  width: 600px;
+  height: 300px;
+}
+#wrap main .wrap .contentswrap .inputbox input {
+  width: 500px;
+  height: 50px;
+  border: 1px solid #000;
+  background-color: #fff;
+  font-size: 2.4em;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+#wrap footer .btnbox {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-top: 60px;
+}
+#wrap footer .btnbox .btn {
+  width: 100px;
+  height: 50px;
+  background-color: #FF9D9D;
+  font-size: 2.4em;
+  border-radius: 30px;
+}
