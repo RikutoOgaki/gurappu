@@ -1,3 +1,69 @@
 html {
   font-size: 62.5%;
 }
+
+#wrap {
+  width: 100%;
+  height: 100%;
+}
+#wrap header {
+  display: flex;
+  justify-content: flex-end;
+}
+#wrap header .navbox {
+  width: 100px;
+  height: 100px;
+  background-color: #FF9D9D;
+}
+#wrap main {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 200px 200px 200px;
+  margin-left: 100px;
+  text-align: center;
+}
+#wrap main p {
+  font-size: 2.4em;
+  margin-top: 60px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+#wrap main .textbox input {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin-top: 20px;
+}
+#wrap main .textbox .btn {
+  width: 200px;
+  height: 50px;
+  background-color: #FF9D9D;
+  border-radius: 15px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  margin-top: 150px;
+}
+#wrap main .menber {
+  width: 400px;
+  height: 560px;
+  background-color: #FF9D9D;
+  border-radius: 30px;
+  grid-column: 2/3;
+  grid-row: 1/4;
+  margin-left: 50px;
+}
+#wrap footer {
+  display: flex;
+  justify-content: flex-end;
+}
+#wrap footer .nextbtn {
+  width: 240px;
+  height: 50px;
+  background-color: #FF9D9D;
+  border-radius: 15px;
+  font-size: 2.4em;
+  margin: 10px 50px 0 0;
+}
