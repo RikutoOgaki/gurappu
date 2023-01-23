@@ -1,3 +1,43 @@
 html {
   font-size: 62.5%;
 }
+
+#wrap header {
+  display: flex;
+  justify-content: flex-end;
+}
+#wrap header .navbox {
+  width: 10em;
+  height: 10em;
+  background-color: #FF9D9D;
+}
+#wrap main {
+  display: grid;
+  grid-template-columns: 60em 20em 20em;
+  grid-template-rows: 15em 15em 15em;
+}
+#wrap main .navbox {
+  width: 60em;
+  height: 40em;
+  background-color: #FF9D9D;
+  border-radius: 3em;
+}
+#wrap main .navbox p {
+  font-size: 2.4em;
+}
+#wrap main .textbox {
+  width: 40em;
+  height: 45em;
+}
+#wrap main .textbox p {
+  font-size: 1.6em;
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+#wrap main .textbox input {
+  width: 16em;
+  height: 5em;
+  border: 1px solid #000;
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
