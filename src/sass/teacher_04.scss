@@ -1,0 +1,52 @@
+html{
+    font-size: 62.5%;
+}
+#wrap{
+    header{
+        display: flex;
+        justify-content: flex-end;
+        .nav{
+            width: 100px;
+            height: 100px;
+            background-color: #FF9D9D;
+            text-align: center;
+            .navline{
+                margin-top: 15px;
+                display: inline-block;
+                background-color: #fff;
+                width: 80px;
+                height: 8px;
+            }
+        }
+    }
+    main{
+        width: 100%;
+        height: 100%;
+        td{
+            width: 40px;
+            height: 30px;
+            border: 1px solid #000;
+            &:nth-child(3){
+                width: 160px;
+                height: 30px;
+                border: 1px solid #000;
+            }
+        }
+    }
+    footer{
+        .nextbtn{
+            width: 160px;
+            height: 50px;
+            background-color: #FF9D9D;
+            border-radius: 15px;
+            font-size: 2.4em;
+        }
+        .btnrandam{
+            width: 240px;
+            height: 50px;
+            background-color: #FF9D9D;
+            font-size: 2.4em;
+            border-radius: 15px;
+        }
+    }
+}

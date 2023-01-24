@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+}
+
+#wrap header {
+  display: flex;
+  justify-content: flex-end;
+}
+#wrap header .nav {
+  width: 100px;
+  height: 100px;
+  background-color: #FF9D9D;
+  text-align: center;
+}
+#wrap header .nav .navline {
+  margin-top: 15px;
+  display: inline-block;
+  background-color: #fff;
+  width: 80px;
+  height: 8px;
+}
+#wrap footer {
+  display: flex;
+  justify-content: flex-end;
+}
+#wrap footer .slidebtn {
+  width: 320px;
+  height: 50px;
+  background-color: #FF9D9D;
+  border-radius: 15px;
+  font-size: 2.4em;
+  margin-right: 100px;
+}
