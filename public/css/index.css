@@ -16,6 +16,10 @@ html {
   align-items: center;
   text-align: center;
 }
+#backimg h1 img {
+  width: 800px;
+  height: 200px;
+}
 #backimg .contents .btnbox1 {
   display: flex;
   justify-content: space-around;
