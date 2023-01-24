@@ -10,6 +10,14 @@ html {
   width: 100px;
   height: 100px;
   background-color: #FF9D9D;
+  text-align: center;
+}
+#wrap header .nav .navline {
+  margin-top: 15px;
+  display: inline-block;
+  background-color: #fff;
+  width: 80px;
+  height: 8px;
 }
 #wrap main {
   width: 100%;
