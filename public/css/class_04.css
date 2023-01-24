@@ -1,3 +1,48 @@
 html {
   font-size: 62.5%;
 }
+
+#wrap header {
+  display: flex;
+  justify-content: flex-end;
+}
+#wrap header .navbox {
+  width: 10em;
+  height: 10em;
+  background-color: #FF9D9D;
+}
+#wrap main {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+#wrap main .mainbox {
+  width: 64em;
+  height: 20em;
+  background-color: #FF9D9D;
+}
+#wrap main .mainbox #timer {
+  font-size: 12em;
+  text-align: center;
+}
+#wrap footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15em;
+}
+#wrap footer .btntime {
+  width: 200px;
+  height: 60px;
+  background-color: #FF9D9D;
+  border-radius: 15px;
+  margin-left: 15%;
+  font-size: 2.4em;
+}
+#wrap footer .timerbtn {
+  width: 200px;
+  height: 60px;
+  background-color: #FF9D9D;
+  border-radius: 15px;
+  margin-right: 15%;
+  font-size: 2.4em;
+}
