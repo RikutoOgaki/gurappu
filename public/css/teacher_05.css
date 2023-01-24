@@ -1,7 +1,13 @@
+@charset "UTF-8";
 html {
   font-size: 62.5%;
 }
 
+#wrap {
+  width: 100vw;
+  height: 100vh;
+  background: url("../img/グッド.png");
+}
 #wrap header {
   display: flex;
   justify-content: flex-end;

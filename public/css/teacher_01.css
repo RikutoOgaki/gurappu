@@ -1,10 +1,12 @@
+@charset "UTF-8";
 html {
   font-size: 62.5%;
 }
 
 #wrap {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  background: url("../img/グッド.png");
 }
 #wrap header {
   display: flex;
@@ -14,10 +16,16 @@ html {
   width: 100px;
   height: 100px;
   background-color: #FF9D9D;
+  text-align: center;
+}
+#wrap header .nav .navline {
+  margin-top: 15px;
+  display: inline-block;
+  background-color: #fff;
+  width: 80px;
+  height: 8px;
 }
 #wrap main {
-  width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +34,7 @@ html {
   background-color: #FF9D9D;
   width: 960px;
   height: 400px;
-  margin-top: 10em;
+  margin-top: 5em;
   border-radius: 15px;
   box-shadow: 12px 10px 5px rgb(75, 75, 75);
 }
