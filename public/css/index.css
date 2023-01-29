@@ -19,6 +19,18 @@ html {
 #backimg h1 img {
   width: 800px;
   height: 200px;
+  animation: fuwa 4s infinite;
+}
+@keyframes fuwa {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 #backimg .contents .btnbox1 {
   display: flex;

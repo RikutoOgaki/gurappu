@@ -41,7 +41,7 @@ html{
         display: flex;
         justify-content: space-around;
         margin-top: 15em;
-        .btntime{
+        #btntime{
             width: 200px;
             height: 60px;
             background-color: #FF9D9D;
@@ -49,7 +49,15 @@ html{
             margin-left: 15%;
             font-size: 2.4em;
         }
-        .timerbtn{
+        #timerbtn{
+            width: 200px;
+            height: 60px;
+            background-color: #FF9D9D;
+            border-radius: 15px;
+            margin-right: 15%;
+            font-size: 2.4em;
+        }
+        #nextbtn{
             width: 200px;
             height: 60px;
             background-color: #FF9D9D;
