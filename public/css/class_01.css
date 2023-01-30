@@ -50,7 +50,7 @@ html {
   font-size: 2.4em;
   text-align: center;
 }
-#wrap main .textbox .btn {
+#wrap main .textbox #btn {
   width: 200px;
   height: 50px;
   background-color: #FF9D9D;
@@ -58,6 +58,7 @@ html {
   grid-column: 1/2;
   grid-row: 3/4;
   margin-top: 150px;
+  font-size: 2.4em;
 }
 #wrap main .menber {
   width: 400px;
@@ -67,6 +68,29 @@ html {
   grid-column: 2/3;
   grid-row: 1/4;
   margin-left: 50px;
+}
+#wrap main .menber table {
+  display: flex;
+  justify-content: center;
+}
+#wrap main .menber table #tab .items {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+#wrap main .menber table #tab .items td {
+  width: 160px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #000;
+  font-size: 1.8em;
+}
+#wrap main .menber table #tab .items .close {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  margin-left: 10px;
+  border: 1px solid #000;
 }
 #wrap footer {
   display: flex;
