@@ -8,11 +8,12 @@ html{
     header{
         display: flex;
         justify-content: flex-end;
-        .navbox{
+        #nav{
             width: 100px;
             height: 100px;
             background-color: #FF9D9D;
             text-align: center;
+            // z-index: 1;
             .navline{
                 margin-top: 15px;
                 display: inline-block;
@@ -33,6 +34,7 @@ html{
             margin-top: 60px;
             grid-column: 1/2;
             grid-row: 1/2;
+            font-family: 'Yusei Magic', sans-serif;
         }
         .textbox{
             input{
@@ -46,6 +48,7 @@ html{
                 background-color: #fff;
                 font-size: 2.4em;
                 text-align: center;
+                font-family: 'Yusei Magic', sans-serif;
             }
             #btn{
                 width: 200px;
@@ -56,6 +59,7 @@ html{
                 grid-row: 3/4;
                 margin-top: 150px;
                 font-size: 2.4em;
+                font-family: 'Yusei Magic', sans-serif;
             }
         }
         .menber{
@@ -80,13 +84,16 @@ html{
                             background-color: #fff;
                             border: 1px solid #000;
                             font-size: 1.8em;
+                            font-family: 'Yusei Magic', sans-serif;
                         }
                         .close{
-                            width: 30px;
+                            width: 50px;
                             height: 30px;
                             background-color: #fff;
                             margin-left: 10px;
                             border: 1px solid #000;
+                            font-size: 1.8em;
+                            font-family: 'Yusei Magic', sans-serif;
                         }
                     }
                 }
@@ -103,6 +110,7 @@ html{
             border-radius: 15px;
             font-size: 2.4em;
             margin: 10px 50px 0 0;
+            font-family: 'Yusei Magic', sans-serif;
         }
     }
 }

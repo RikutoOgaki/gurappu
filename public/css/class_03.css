@@ -42,6 +42,7 @@ html {
   font-size: 3.2em;
   text-align: center;
   padding-top: 60px;
+  font-family: "Yusei Magic", sans-serif;
 }
 #wrap footer {
   width: 95%;
@@ -56,4 +57,5 @@ html {
   border-radius: 15px;
   font-size: 2em;
   margin-top: 50px;
+  font-family: "Yusei Magic", sans-serif;
 }

@@ -35,8 +35,10 @@ for(let i=0; i<closebtn.length; i++){
 btn.addEventListener("click",()=>{
     if(text.value){
         tab.appendChild(create());
+        text.value = "";
     }
     else{
         alert("なまえをにゅうりょくしてね！")
     }
 })
+

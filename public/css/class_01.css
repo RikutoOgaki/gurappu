@@ -12,13 +12,13 @@ html {
   display: flex;
   justify-content: flex-end;
 }
-#wrap header .navbox {
+#wrap header #nav {
   width: 100px;
   height: 100px;
   background-color: #FF9D9D;
   text-align: center;
 }
-#wrap header .navbox .navline {
+#wrap header #nav .navline {
   margin-top: 15px;
   display: inline-block;
   background-color: #fff;
@@ -37,6 +37,7 @@ html {
   margin-top: 60px;
   grid-column: 1/2;
   grid-row: 1/2;
+  font-family: "Yusei Magic", sans-serif;
 }
 #wrap main .textbox input {
   width: 300px;
@@ -49,6 +50,7 @@ html {
   background-color: #fff;
   font-size: 2.4em;
   text-align: center;
+  font-family: "Yusei Magic", sans-serif;
 }
 #wrap main .textbox #btn {
   width: 200px;
@@ -59,6 +61,7 @@ html {
   grid-row: 3/4;
   margin-top: 150px;
   font-size: 2.4em;
+  font-family: "Yusei Magic", sans-serif;
 }
 #wrap main .menber {
   width: 400px;
@@ -84,13 +87,16 @@ html {
   background-color: #fff;
   border: 1px solid #000;
   font-size: 1.8em;
+  font-family: "Yusei Magic", sans-serif;
 }
 #wrap main .menber table #tab .items .close {
-  width: 30px;
+  width: 50px;
   height: 30px;
   background-color: #fff;
   margin-left: 10px;
   border: 1px solid #000;
+  font-size: 1.8em;
+  font-family: "Yusei Magic", sans-serif;
 }
 #wrap footer {
   display: flex;
@@ -103,4 +109,5 @@ html {
   border-radius: 15px;
   font-size: 2.4em;
   margin: 10px 50px 0 0;
+  font-family: "Yusei Magic", sans-serif;
 }
