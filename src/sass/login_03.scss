@@ -1,4 +1,4 @@
-html {
+html{
     font-size: 62.5%;
 }
 #wrap{
@@ -22,50 +22,24 @@ html {
             }
         }
     }
-    main {
+    main{
         display: flex;
         justify-content: center;
         align-items: center;
-        .wrap {
+        .wrapbox{
             background-color: #FF9D9D;
             width: 960px;
             height: 400px;
             margin-top: 10em;
             border-radius: 15px;
             box-shadow: 12px 10px 5px rgb(75, 75, 75);
-            .title {
-                text-align: center;
+            text-align: center;
+            p{
                 font-size: 3.2em;
-                margin-top: 25px;
+                line-height: 4;
                 font-family: 'Yusei Magic', sans-serif;
-            }
-            .contentswrap {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                .textbox {
-                    width: 300px;
-                    height: 300px;
-                    text-align: center;
-                    p {
-                        font-size: 2.4em;
-                        margin-top: 70px;
-                        font-family: 'Yusei Magic', sans-serif;
-                    }
-                }
-                .inputbox {
-                    width: 600px;
-                    height: 300px;
-                    input{
-                        width: 500px;
-                        height: 50px;
-                        border: 1px solid #000;
-                        background-color: #fff;
-                        font-size: 2.4em;
-                        border-radius: 15px;
-                        margin-top: 60px;
-                        font-family: 'Yusei Magic', sans-serif;
-                    }
+                &:nth-child(1){
+                    font-size: 4.8em;
                 }
             }
         }
@@ -77,8 +51,8 @@ html {
             justify-content: center;
             margin-left: 40px;
             margin-top: 60px;
-            .btn{
-                width: 100px;
+            .nextbtn{
+                width: 240px;
                 height: 50px;
                 background-color: #FF9D9D;
                 font-size: 2.4em;
