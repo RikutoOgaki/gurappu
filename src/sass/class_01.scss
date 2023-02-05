@@ -6,8 +6,6 @@ html{
     height: 100vh;
     background-image: url("../img/グッド.png");
     header{
-        // display: flex;
-        // justify-content: flex-end;
         padding-bottom: 110px;
         #nav{
             width: 100px;
@@ -19,11 +17,36 @@ html{
             right: 0;
             z-index: 9999;
             .navline{
-                margin-top: 15px;
+                // margin-top: 15px;
                 display: inline-block;
+                position: absolute;
+                right: 10px;
                 background-color: #fff;
                 width: 80px;
                 height: 8px;
+                transition: .4s ease-in-out;
+                &:nth-child(1){
+                    top: 20px;
+                }
+                &:nth-child(2){
+                    top:  45px;
+                }
+                &:nth-child(3){
+                    top: 70px;
+                }
+                &:nth-child(1).active{
+                    top: 38px;
+                    right:10px;
+                    transform: translateY(9px) rotate(-45deg);
+                }
+                &:nth-child(2).active{
+                    opacity: 0;
+                }
+                &:nth-child(3).active{
+                    top: 60px;
+                    right: 9px;
+                    transform: translateY(-9px) rotate(45deg);
+                }
             }
         }
         #navlink{
@@ -31,25 +54,28 @@ html{
             top: 0;
             right: -300px;
             width: 300px;
-            height: 400px;
+            height: 350px;
             transition: .4s ease-in-out;
             background-color: #FF9D9D;
             z-index: 999;
             box-shadow: 12px 10px 5px rgb(75, 75, 75);
             .nav{
                 padding-top: 100px;
+                text-align: center;
                 li{
                     list-style: none;
-                    width: 300px;
+                    width: 250px;
                     height: 90px;
                     background-color: #fff;
                     margin-top: 20px;
-                    text-align: center;
+                    margin-left: 25px;
+                    border-radius: 15px;
                     button{
                         height: 90px;
                         width: 100%;
                         text-decoration: none;
                         font-size: 2.4em;
+                        font-family: 'Yusei Magic', sans-serif;
                     }
                 }
             }

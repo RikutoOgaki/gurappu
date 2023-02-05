@@ -5,6 +5,8 @@ const closebtn = document.querySelectorAll("close");
 const clear = document.querySelectorAll("items");
 const nav = document.getElementById("nav");
 const navlink = document.getElementById("navlink");
+const bar = document.querySelectorAll(".navline");
+console.log(bar);
 
 function create(){
     const tr = document.createElement("tr");
@@ -45,6 +47,9 @@ btn.addEventListener("click",()=>{
 })
 
 nav.addEventListener("click",()=>{
-    navlink.classList.toggle("open")
+    navlink.classList.toggle("open");
+    bar.forEach((e)=>{
+        e.classList.toggle("active");
+    })
 })
 
