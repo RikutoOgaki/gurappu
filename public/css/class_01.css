@@ -9,14 +9,17 @@ html {
   background-image: url("../img/グッド.png");
 }
 #wrap header {
-  display: flex;
-  justify-content: flex-end;
+  padding-bottom: 110px;
 }
 #wrap header #nav {
   width: 100px;
   height: 100px;
   background-color: #FF9D9D;
   text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9999;
 }
 #wrap header #nav .navline {
   margin-top: 15px;
@@ -24,6 +27,37 @@ html {
   background-color: #fff;
   width: 80px;
   height: 8px;
+}
+#wrap header #navlink {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 400px;
+  transition: 0.4s ease-in-out;
+  background-color: #FF9D9D;
+  z-index: 999;
+  box-shadow: 12px 10px 5px rgb(75, 75, 75);
+}
+#wrap header #navlink .nav {
+  padding-top: 100px;
+}
+#wrap header #navlink .nav li {
+  list-style: none;
+  width: 300px;
+  height: 90px;
+  background-color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+#wrap header #navlink .nav li button {
+  height: 90px;
+  width: 100%;
+  text-decoration: none;
+  font-size: 2.4em;
+}
+#wrap header #navlink.open {
+  right: 0;
 }
 #wrap main {
   display: grid;

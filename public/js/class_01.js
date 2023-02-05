@@ -3,6 +3,8 @@ const btn = document.getElementById("btn");
 const tab = document.getElementById("tab");
 const closebtn = document.querySelectorAll("close");
 const clear = document.querySelectorAll("items");
+const nav = document.getElementById("nav");
+const navlink = document.getElementById("navlink");
 
 function create(){
     const tr = document.createElement("tr");
@@ -40,5 +42,9 @@ btn.addEventListener("click",()=>{
     else{
         alert("なまえをにゅうりょくしてね！")
     }
+})
+
+nav.addEventListener("click",()=>{
+    navlink.classList.toggle("open")
 })
 
