@@ -24,10 +24,10 @@ html {
 #wrap header #nav .navline {
   display: inline-block;
   position: absolute;
-  right: 10px;
   background-color: #fff;
   width: 80px;
   height: 8px;
+  right: 10px;
   transition: 0.4s ease-in-out;
 }
 #wrap header #nav .navline:nth-child(1) {
@@ -79,7 +79,6 @@ html {
 #wrap header #navlink .nav li button {
   height: 90px;
   width: 100%;
-  text-decoration: none;
   font-size: 2.4em;
   font-family: "Yusei Magic", sans-serif;
 }
