@@ -9,21 +9,81 @@ html {
   background: url("../img/グッド.png");
 }
 #wrap header {
-  display: flex;
-  justify-content: flex-end;
+  padding-top: 100px;
 }
-#wrap header .navbox {
-  width: 10em;
-  height: 10em;
+#wrap header #nav {
+  width: 100px;
+  height: 100px;
   background-color: #FF9D9D;
   text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9999;
 }
-#wrap header .navbox .navline {
-  margin-top: 15px;
+#wrap header #nav .navline {
   display: inline-block;
   background-color: #fff;
   width: 80px;
   height: 8px;
+  position: absolute;
+  right: 10px;
+  transition: 0.4s ease-in-out;
+}
+#wrap header #nav .navline:nth-child(1) {
+  top: 20px;
+}
+#wrap header #nav .navline:nth-child(2) {
+  top: 45px;
+}
+#wrap header #nav .navline:nth-child(3) {
+  top: 70px;
+}
+#wrap header #nav .navline:nth-child(1).active {
+  top: 38px;
+  right: 10px;
+  transform: translateY(9px) rotate(-45deg);
+}
+#wrap header #nav .navline:nth-child(2).active {
+  opacity: 0;
+}
+#wrap header #nav .navline:nth-child(3).active {
+  top: 60px;
+  right: 9px;
+  transform: translateY(-9px) rotate(45deg);
+}
+#wrap header #navlink {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 350px;
+  transition: 0.4s ease-in-out;
+  background-color: #FF9D9D;
+  z-index: 999;
+  box-shadow: 12px 10px 5px rgb(75, 75, 75);
+}
+#wrap header #navlink .nav {
+  padding-top: 100px;
+  text-align: center;
+}
+#wrap header #navlink .nav li {
+  list-style: none;
+  width: 250px;
+  height: 90px;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: 25px;
+  border-radius: 15px;
+}
+#wrap header #navlink .nav li button {
+  height: 90px;
+  width: 100%;
+  font-size: 2.4em;
+  font-family: "Yusei Magic", sans-serif;
+}
+#wrap header #navlink.open {
+  right: 0;
 }
 #wrap main {
   display: flex;
