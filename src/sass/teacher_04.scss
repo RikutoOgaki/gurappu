@@ -84,25 +84,20 @@ html{
     }
     main{
         .box{
-            margin-left: 50px;
+            margin-left: 100px;
             margin-top: 50px;
             #tab{
                 display: flex;
                 flex-wrap: wrap;
-                max-width: 1000px;
+                max-width: 800px;
                 tbody{
-                    margin: 30px;
+                    margin: 30px 50px 30px;
                     tr{
-                        border: tomato 1px solid;
                         td{
-                            width: 50px;
-                            height: 30px;
-                            border: 1px solid #000;
-                        }
-                        td:nth-child(3){
                             min-width: 160px;
                             height: 30px;
                             border: 1px solid #000;
+                            background-color: #fff;
                         }
                     }
                 }
@@ -120,7 +115,7 @@ html{
             font-size: 2.4em;
             margin: 20px 0;
         }
-        .btnrandam{
+        #btnrandam{
             width: 240px;
             height: 50px;
             background-color: #FF9D9D;
