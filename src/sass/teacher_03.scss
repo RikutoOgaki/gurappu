@@ -90,9 +90,21 @@ html{
         grid-template-columns: 480px 600px;
         grid-template-rows: 200px 300px;
         .menber{
-            width: 48em;
-            height: 48em;
-            border: 1px solid tomato;
+            width: 480px;
+            height: 480px;
+            // border: 1px solid tomato;
+            #tab{
+                width: 480px;
+                height: 480px;
+                tr{
+                    width: 100%;
+                    td{
+                        width: 240px;
+                        border: #000 solid 1px;
+                        background-color: #fff;
+                    }
+                }
+            }
         }
         p{
             grid-row: 1/2;

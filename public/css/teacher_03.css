@@ -93,9 +93,20 @@ html {
   grid-template-rows: 200px 300px;
 }
 #wrap main .menber {
-  width: 48em;
-  height: 48em;
-  border: 1px solid tomato;
+  width: 480px;
+  height: 480px;
+}
+#wrap main .menber #tab {
+  width: 480px;
+  height: 480px;
+}
+#wrap main .menber #tab tr {
+  width: 100%;
+}
+#wrap main .menber #tab tr td {
+  width: 240px;
+  border: #000 solid 1px;
+  background-color: #fff;
 }
 #wrap main p {
   grid-row: 1/2;
