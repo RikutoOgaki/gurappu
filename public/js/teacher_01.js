@@ -7,6 +7,7 @@ fetch(file)
     .then(json=>{
         btn.addEventListener("click",()=>{
             json.forEach((e) => {
+                console.log(e);
                 if(e.name === text.value && e.pas === pas.value){
                     location.href = "teacher_02.html"
                 }

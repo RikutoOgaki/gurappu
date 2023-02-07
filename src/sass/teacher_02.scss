@@ -43,6 +43,7 @@ html{
                     grid-row: 2/3;
                     margin-left: 120px;
                     margin-top: 80px;
+                    font-size: 2.4em;
                 }
             }
             .boxmap{
@@ -63,16 +64,9 @@ html{
         .btnbox{
             width: 90%;
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-end;
             margin-left: 50px;
             margin-top: 40px;
-            .btn{
-                width: 100px;
-                height: 50px;
-                background-color: #FF9D9D;
-                font-size: 2.4em;
-                border-radius: 30px;
-            }
             .btnnext{
                 width: 320px;
                 height: 50px;
