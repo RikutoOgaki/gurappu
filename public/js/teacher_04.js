@@ -1,6 +1,7 @@
 const nav = document.getElementById("nav");
 const navline = document.querySelectorAll(".navline");
 const navlink = document.getElementById("navlink");
+const btn = document.getElementById("btnrandam");
 
 nav.addEventListener("click", ()=>{
     navlink.classList.toggle("open");
@@ -39,70 +40,26 @@ let men = [
 
 console.log(men);
 
-for(let i=0; i<4; i++){
-    const rdm = Math.floor(Math.random()*men.length);
-    rcm.push(men[rdm]);
-    men.splice(rdm,1);
-}
-for(let j=0; j<4; j++){
-    const rdm = Math.floor(Math.random()*men.length);
-    rbm.push(men[rdm]);
-    men.splice(rdm,1);
-}
-for(let j=0; j<4; j++){
-    const rdm = Math.floor(Math.random()*men.length);
-    ram.push(men[rdm]);
-    men.splice(rdm,1);
-}
-for(let j=0; j<4; j++){
-    const rdm = Math.floor(Math.random()*men.length);
-    rxm.push(men[rdm]);
-    men.splice(rdm,1);
-}
-console.log(men,rcm,rbm,ram,rxm);
 
-const tbody = document.querySelectorAll("tbody");
-console.log(tbody);
-
-window.addEventListener("load",()=>{
-    rcm.forEach((e)=>{
-        let num = `
-            <tr>
-                <td>${e}</td>
-            </tr>
-        `
-        tbody[0].innerHTML += num;
-    });
-    rbm.forEach((e)=>{
-        let num = `
-            <tr>
-                <td>${e}</td>
-            </tr>
-        `
-        tbody[1].innerHTML += num;
-    });
-    ram.forEach((e)=>{
-        let num = `
-            <tr>
-                <td>${e}</td>
-            </tr>
-        `
-        tbody[2].innerHTML += num;
-    });
-    rxm.forEach((e)=>{
-        let num = `
-            <tr>
-                <td>${e}</td>
-            </tr>
-        `
-        tbody[3].innerHTML += num;
-    });    
-    men.forEach((e)=>{
-        let num = `
-            <tr>
-                <td>${e}</td>
-            </tr>
-        `
-        tbody[4].innerHTML += num;
-    });
+btn.addEventListener("click",()=>{
+    for(let i=0; i<4; i++){
+        let rdm = Math.floor(Math.random()*men.length);
+        rcm.push(men[rdm])
+        men.splice(rdm,1)
+    }
+    for(let i=0; i<4; i++){
+        let rdm = Math.floor(Math.random()*men.length);
+        rbm.push(men[rdm])
+        men.splice(rdm,1)
+    }
+    for(let i=0; i<4; i++){
+        let rdm = Math.floor(Math.random()*men.length);
+        ram.push(men[rdm])
+        men.splice(rdm,1)
+    }
+    for(let i=0; i<4; i++){
+        let rdm = Math.floor(Math.random()*men.length);
+        rxm.push(men[rdm])
+        men.splice(rdm,1)
+    }
 })
